@@ -1,4 +1,7 @@
-''''Same as network.py, but uses batching of input samples (batch size = mini_batch_size)'''
+''''Network v2.0: network.py but uses batching of input samples (batch size = mini_batch_size). 
+Shallow neural network for handwritten digit classification, trained on MNIST dataset. 
+Implemented in Numpy as a learning exercise, to build an intuitive understanding. 
+The code and model are not optimised, and omit many desireable features'''
 import random 
 import numpy as np 
 
@@ -82,7 +85,7 @@ class Network():
     
     def cost_derivative(self, activation, Y):
         """Return the vector of partial derivatives dC_x/da for the output activation matrix"""
-        return (activation - Y) #quadratic cost function
+        return (activation - Y) #for quadratic cost function
 
     def backprop(self, X, Y):
         """Return a tuple (nabla_B, nabla_w) representing the

@@ -41,4 +41,3 @@ My NumPy-only implementations of neural networks that learn to classify handwrit
   Training took 15.84347275 seconds
 
 - I will next write code which performs Bayesian optimisation of the model's hyper-parameters on the validation set, plot classification accuracy vs epochs for each data set to detect the extent of overfitting, and implement neuron dropout. I am building up to writing a CNN to solve the digit classification problem. 
-  

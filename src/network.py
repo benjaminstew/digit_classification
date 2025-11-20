@@ -1,4 +1,4 @@
-'''Shallow neural network for handwritten digit classification, trained on MNIST dataset. 
+'''v1.0: shallow neural network for handwritten digit classification, trained on MNIST dataset. 
 Implemented in Numpy as a learning exercise, to build an intuitive understanding. 
 The code and model are not optimised, and omit many desireable features'''
 import random 
