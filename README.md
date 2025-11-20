@@ -1,5 +1,5 @@
 # digit_classification
-My NumPy-only implementations of neural networks that learn to classify handwritten digits, the main project in Michael Neilsen's fantastic book _Neural Networks and Deep Learning_ (http://neuralnetworksanddeeplearning.com/index.html). It is trained on the MNIST dataset (70000 images in mnist.pkl.gz) split into a 50000-image training set, 10000-image validation set and 10000-image test set. I am using this book to gain an intuitive understanding of how neural nets learn. 
+My NumPy-only implementations of neural networks that learn to classify handwritten digits, the main project in Michael Neilsen's fantastic book _Neural Networks and Deep Learning_. It is trained on the MNIST dataset (70000 images in mnist.pkl.gz) split into a 50000-image training set, 10000-image validation set and 10000-image test set. I am using this book to gain an intuitive understanding of how neural nets learn. 
 
 - network.py is a the chapter 1 implementation, a shallow neural net using mini-batch stochastic gradient descent with no optimisations.
   Example run on an Apple M2 CPU of a three layer network with sizes [784, 30, 10], learning rate = 3.0, 30 epochs and mini batch size of 10 gives:  
@@ -40,5 +40,5 @@ My NumPy-only implementations of neural networks that learn to classify handwrit
   Epoch 29: 9610 / 10000 (96.1%)  
   Training took 15.84347275 seconds
 
-- I will next write code to optimise the model's hyper-parameters on the validation set, plot classification accuracy vs epochs for each data set to detect the extent of overfitting, and implement neuron dropout. I am building up to writing a CNN to solve the digit classification problem. 
+- I will next write code which performs Bayesian optimisation of the model's hyper-parameters on the validation set, plot classification accuracy vs epochs for each data set to detect the extent of overfitting, and implement neuron dropout. I am building up to writing a CNN to solve the digit classification problem. 
   
