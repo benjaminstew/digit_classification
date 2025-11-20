@@ -31,6 +31,7 @@ My NumPy-only implementations of neural networks that learn to classify handwrit
   Example run on an Apple M2 CPU of a three layer network with sizes [784, 30, 10], learning rate = 0.5, 30 epochs, regularisation factor = 5.0 and mini batch size of 10 gives:    
 
   _% python3 training_run.py_
+  
   Epoch 0: 9349 / 10000 (93.49%)   
   Epoch 5: 9542 / 10000 (95.42%)  
   Epoch 10: 9558 / 10000 (95.58%)  
